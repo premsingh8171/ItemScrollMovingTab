@@ -11,7 +11,8 @@ Scroll view like urban clap
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://pasteboard.co/JBeBUDk.jpg)  ![screenshot](https://pasteboard.co/JBeCcKK.jpg)
+![screenshot](https://img.imageupload.net/2020/11/20/scroll_1.jpg)  ![screenshot](https://pasteboard.co/JBeCcKK.jpg)
+
 ## Description
 Vitrin is a sample app shows subcategories and items of certain categories. 
 
