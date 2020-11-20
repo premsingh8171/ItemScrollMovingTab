@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -68,6 +70,8 @@ public class HeaderTabAdapter extends RecyclerView.Adapter<HeaderTabAdapter.SPVi
             holder.tab_layout_Tv.setTextColor(ContextCompat.getColor(context, R.color.colorWhite));
 
         }
+//        Animation animation = AnimationUtils.loadAnimation(context, R.anim.rv_left_right_anim);
+//        holder.itemView.startAnimation(animation);
 
     }
 

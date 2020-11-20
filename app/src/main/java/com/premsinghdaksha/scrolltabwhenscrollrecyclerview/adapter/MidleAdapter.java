@@ -4,6 +4,8 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -41,7 +43,8 @@ public class MidleAdapter extends RecyclerView.Adapter<MidleAdapter.MidleViewHol
         HeaderModel model = changeList.get(position);
         holder.header_title.setText(model.getData10());
         childListRv(holder, position, model.getServiceProblem());
-
+        Animation animation = AnimationUtils.loadAnimation(mContext, R.anim.rv_right_left_anim);
+        holder.itemView.startAnimation(animation);
     }
 
     @Override
