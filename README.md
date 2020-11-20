@@ -14,7 +14,7 @@ Scroll view like urban clap
 ![screenshot](https://img.imageupload.net/2020/11/20/scroll_1.jpg)  ![screenshot](https://pasteboard.co/JBeCcKK.jpg)
 
 ## Description
-Vitrin is a sample app shows subcategories and items of certain categories. 
+ItemScrollMovingTab is a sample app shows subcategories and items of certain categories. 
 
 
 
