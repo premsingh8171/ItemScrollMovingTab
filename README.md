@@ -11,7 +11,7 @@ Scroll view like urban clap
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://img.imageupload.net/2020/11/20/scroll_1.jpg)  ![screenshot](https://pasteboard.co/JBeCcKK.jpg)
+![screenshot](https://raw.githubusercontent.com/premsingh8171/ItemScrollMovingTab/master/app/src/main/res/drawable/movingtab.gif)
 
 ## Description
 ItemScrollMovingTab is a sample app shows subcategories and items of certain categories. 
