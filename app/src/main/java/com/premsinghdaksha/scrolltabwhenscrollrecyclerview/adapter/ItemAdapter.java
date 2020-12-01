@@ -6,8 +6,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -124,8 +122,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.MyViewHolder> 
             holder.spaceAddLL.setVisibility(View.GONE);
 
         }
-        Animation animation = AnimationUtils.loadAnimation(context, R.anim.rv_right_left_anim);
-        holder.itemView.startAnimation(animation);
+        // Animation animation = AnimationUtils.loadAnimation(context, R.anim.rv_right_left_anim);
+        //holder.itemView.startAnimation(animation);
     }
 
     @Override
