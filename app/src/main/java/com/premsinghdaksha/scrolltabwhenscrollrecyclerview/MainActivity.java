@@ -1,5 +1,6 @@
 package com.premsinghdaksha.scrolltabwhenscrollrecyclerview;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.premsinghdaksha.scrolltabwhenscrollrecyclerview.activity.uploadDoc;
 import com.premsinghdaksha.scrolltabwhenscrollrecyclerview.adapter.HeaderTabAdapter;
 import com.premsinghdaksha.scrolltabwhenscrollrecyclerview.adapter.ItemAdapter;
 import com.premsinghdaksha.scrolltabwhenscrollrecyclerview.adapter.MidleAdapter;
@@ -159,6 +161,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(String count) {
                 Log.d("count_val", String.valueOf(count));
                 badge.setText(count);
+                Intent intent = new Intent(MainActivity.this, uploadDoc.class);
+                startActivity(intent);
             }
         });
         main_rv.setAdapter(adapter);
@@ -181,4 +185,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 }
